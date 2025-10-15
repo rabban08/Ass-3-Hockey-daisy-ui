@@ -16,7 +16,7 @@
 <body>
 
 
-    <header>
+    <header class="container mx-auto">
         <!-- Navbar -->
         <nav>
             <div class="navbar bg-base-100 shadow-sm">
@@ -55,6 +55,65 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Banner section -->
+        <section>
+
+            <div class="carousel mt-10 w-full  lg:h-[500px]  ">
+
+                <div id="slide1" class="carousel-item relative w-full ">
+
+
+                    <img src="Images/1.png" class=" w-full rounded-2xl" />
+
+                    <div
+                        class="absolute left-5 right-5 bottom-1 flex -translate-y-1/2 transform md:justify-start justify-center gap-x-10">
+                        <a href="#slide3" class="btn btn-circle  bg-black/30 text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle  bg-black/30 text-white">❯</a>
+                    </div>
+
+                    <div class="lg:p-8 p-5 absolute lg:right-6 lg:bottom-6 md:right-24 -bottom-40 overflow-hidden
+                        md:w-[560px] text-white bg-black/70 rounded-2xl">
+                        <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="font-medium mt-4">
+                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                            Purus
+                            urna in sit nullam proin.
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <div id="slide2" class="carousel-item relative w-full ">
+                    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                        class="w-full rounded-2xl" />
+                    <div
+                        class="absolute left-5 right-5 bottom-1 flex -translate-y-1/2 transform md:justify-start justify-center gap-x-10">
+                        <a href="#slide1" class="btn btn-circle  bg-black/30 text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle  bg-black/30 text-white">❯</a>
+                    </div>
+                </div>
+
+
+                <div id="slide3" class="carousel-item relative w-full ">
+                    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        class="w-full rounded-2xl" />
+                    <div
+                        class="absolute left-5 right-5 bottom-1 flex -translate-y-1/2 transform md:justify-start justify-center gap-x-10">
+                        <a href="#slide2" class="btn btn-circle  bg-black/30 text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle  bg-black/30 text-white">❯</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
     </header>
 
 
