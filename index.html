@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=], initial-scale=1.0">
     <title>Hocky daisy </title>
     <!-- Favicon -->
-     <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
     <!-- Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -70,28 +70,19 @@
         </nav>
 
         <!-- Banner section -->
-        <section>
+        <section class="relative">
 
-            <div class="carousel mt-10 w-full  lg:h-[500px]  ">
+            <div class="carousel mt-10 w-full   ">
 
                 <div id="slide1" class="carousel-item relative w-full ">
 
 
-                    <img src="Images/1.png" class=" w-full rounded-2xl" />
+                    <img src="Images/1.png" class=" w-full bg-cover bg-no-repeat rounded-2xl" />
 
                     <div
                         class="absolute left-5 right-5 bottom-1 flex -translate-y-1/2 transform md:justify-start justify-center gap-x-10">
                         <a href="#slide3" class="btn btn-circle  bg-black/30 text-white">❮</a>
                         <a href="#slide2" class="btn btn-circle  bg-black/30 text-white">❯</a>
-                    </div>
-
-                    <div class="lg:p-8 p-5 absolute lg:right-6 lg:bottom-6 md:right-24 -bottom-40 overflow-hidden
-                        md:w-[560px] text-white bg-black/70 rounded-2xl">
-                        <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
-                        <p class="font-medium mt-4">
-                            Welcome to a place where passion meets performance. Our hockey club builds strong players,
-                            stronger teams, and unforgettable moments on and off the field.
-                        </p>
                     </div>
 
                 </div>
@@ -106,14 +97,7 @@
                         <a href="#slide1" class="btn btn-circle  bg-black/30 text-white">❮</a>
                         <a href="#slide3" class="btn btn-circle  bg-black/30 text-white">❯</a>
                     </div>
-                    <div class="lg:p-8 p-5 absolute lg:right-6 lg:bottom-6 md:right-24 -bottom-40 overflow-hidden
-                        md:w-[560px] text-white bg-black/70 rounded-2xl">
-                        <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
-                        <p class="font-medium mt-4">
-                            Welcome to a place where passion meets performance. Our hockey club builds strong players,
-                            stronger teams, and unforgettable moments on and off the field.
-                        </p>
-                    </div>
+
                 </div>
 
 
@@ -126,20 +110,19 @@
                         <a href="#slide1" class="btn btn-circle  bg-black/30 text-white">❯</a>
                     </div>
 
-                    <div class="lg:p-8 p-5 absolute lg:right-6 lg:bottom-6 md:right-24 -bottom-40 overflow-hidden
-                        md:w-[560px] text-white bg-black/70 rounded-2xl">
-                        <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
-                        <p class="font-medium mt-4">
-                            Welcome to a place where passion meets performance. Our hockey club builds strong players,
-                            stronger teams, and unforgettable moments on and off the field.
-                        </p>
-                    </div>
+
                 </div>
-
-
 
             </div>
 
+            <div class="lg:p-8 p-5 lg:absolute lg:right-6 lg:bottom-6 lg:mx-0 mx-auto
+                        md:w-[560px] text-white bg-black/70 rounded-2xl">
+                <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p class="font-medium mt-4">
+                    Welcome to a place where passion meets performance. Our hockey club builds strong players,
+                    stronger teams, and unforgettable moments on and off the field.
+                </p>
+            </div>
 
 
         </section>
